@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'poppins',sans-serif;
+}
+.S5{
+    width: 100%;
+	justify-content: space-around;
+}
+.header{
+    width: 100%;
+	display: flex;
+	color:#4287f5;
+    background-color:#062640;
+	position: fixed;
+	top: 0;
+}
+.text{
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    margin-left: 555px;
+}
+.img{
+	margin-left: 1000px;
+	margin-top: 18px;
+	letter-spacing: 5px;
+  }
+.logo{
+    width: 100px;
+	height: 100px;
+    margin-left: 35px;
+    margin-top: 15px;
+	border-radius: 40px;
+	position: relative;
+}
+
+form {
+	display: grid;
+	padding: 1em;
+	background: #f8f3f3;
+	border: 1px solid #c1c1c1;
+	margin: 10px auto 0 auto;
+	max-width: 500px;
+	border: 1px solid rgba(200, 200, 200, 0.3);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+  }
+.form-title{
+	padding: 0.2em;
+	width: 100%;
+	border: 0;
+	margin-left: 125px;
+	font-size: 18px;
+	text-transform: uppercase;
+  }
+  form input {
+	background: #fff;
+	border: 1px solid #9c9c9c;
+  }
+  form button {
+	background: #FC9E21;
+	padding: 0.7em;
+	width: 100%;
+	border: 0;
+	margin-left: 150px;
+  }
+  form button:hover {
+	background: gold;
+  }
+  
+  label {
+	padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+	padding: 5px;
+	margin-bottom: 0.5rem;
+  }
+  input:focus {
+	outline: 3px solid gold;
+  }
+  
+  @media (min-width: 300px) {
+	form {
+	  grid-template-columns: 200px 1fr;
+	  grid-gap: 16px;
+	}
+  
+	label {
+	  grid-column: 1 / 2;
+	}
+  }
+.footer{
+	width: 100%;
+	height:50px;
+	justify-content: space-between;
+	background-color: #0b78a9;
+	position: fixed;
+	bottom: 0;
+}
+.social-links a{
+	display: inline-block;
+	background: #333;
+	color: #eee;
+	line-height: 2;
+	margin-right: 4px;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 7px;
+	margin-left: 7px;
+}
+.social-links a i{
+	line-height: 0;
+  font-size: 16px;
+}
+.footer .copyright {
+	text-align: center;
+	padding-top: 30px;
+	margin-top: -70px;
+  }
+.footer .credits {
+	text-align: center;
+	font-size: 13px;
+	color: #ddd;
+  }
+sup{
+	color: red; 
+}
+select{
+	border-radius: 5px;
+}
+select:focus {
+	outline: 3px solid gold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
